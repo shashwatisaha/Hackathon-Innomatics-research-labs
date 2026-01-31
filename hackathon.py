@@ -7,6 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1WJ2GvZpBGFESv7MNxFGN_Y6IBjoGxLzC
 """
 
+PROCESS
+
 #Upload Files
 from google.colab import files
 uploaded = files.upload()
@@ -59,6 +61,8 @@ final_df.to_csv("final_food_delivery_dataset.csv", index=False)
 
 #Download Final Output
 files.download("final_food_delivery_dataset.csv")
+
+ANSWERS
 
 """MCQs"""
 
